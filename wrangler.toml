@@ -1,0 +1,8 @@
+name = "migrantis-site"
+compatibility_date = "2026-10-16"
+pages_build_output_dir = "./public"
+
+# Configure segredos em Settings > Variables and Secrets no projeto Pages.
+# Variáveis não secretas podem ser definidas abaixo ou no painel:
+[vars]
+GEMINI_MODEL = "gemini-2.5-flash"
